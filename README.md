@@ -7,7 +7,10 @@ This is a ray tracer while is using Vulkan and ImGui, I used the Walnut App temp
 2. Implemented a simple **PBR** material;
 3. Encapsulate light, objects, and environments into different **class** or **struct** to improve readability;
 4. Acceleration using **multi-threading**;
+5. Can use the control to modify object properties.
 
+## Result
+I using AMD R7 5800H to render piture in **6-7ms**.
 
 ## Build
 ### Windows
