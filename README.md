@@ -1,11 +1,23 @@
 # A Ray Tracing Project
 
+This is a ray tracer while is using Vulkan and ImGui, I used the Walnut App template to make it easier to focus on the development of the ray tracing part.
+
+## Ray Tracing
+1. Using **Path Tracing**;
+2. Implemented a simple **PBR** material;
+3. Encapsulate light, objects, and environments into different **class** or **struct** to improve readability;
+4. Acceleration using **multi-threading**;
+
+
+## Build
+### Windows
+1. Run `scripts/Setup.bat`;
+2. Using Visual Studio to Generate `.exe`
 
 
 
-
-
-
+## Why using Walnut ?
+Directly use the vulkan package of glfw in imgui, using a multi-subpass scheme, easy to use and quick to integrate.
 
 ## Walnut
 This is a simple app template for [Walnut](https://github.com/TheCherno/Walnut) - unlike the example within the Walnut repository, this keeps Walnut as an external submodule and is much more sensible for actually building applications. See the [Walnut](https://github.com/TheCherno/Walnut) repository for more details.
