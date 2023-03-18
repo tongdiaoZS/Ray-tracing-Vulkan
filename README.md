@@ -10,7 +10,7 @@ This is a ray tracer while is using Vulkan and ImGui, I used the Walnut App temp
 5. Can use the control to modify object properties.
 
 ## Result
-I using AMD R7 5800H to rendering piture at `150fps`.
+I using AMD R7 5800H to rendering piture at **150fps**.
 
 ## Build
 ### Windows
